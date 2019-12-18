@@ -13,11 +13,15 @@ public class UserInput {
 		int UserInput = scan.nextInt();
 		System.out.println(UserInput);
 		
-		
+		// String USing Newline
 		Scanner scan1 = new Scanner(System.in);
 		System.out.println("Enter Your name");
 		String yourname = scan1.nextLine();
 		System.out.println(yourname);
+		
+		
+		
+		
 		
 		
 		
