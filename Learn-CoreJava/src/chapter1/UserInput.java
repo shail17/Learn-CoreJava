@@ -6,7 +6,7 @@ public class UserInput {
 	public static void main(String[] args) {
 		
 		@SuppressWarnings("resource")
-		Scanner scan = new Scanner(System.in);
+		/*Scanner scan = new Scanner(System.in);
 		
 		// Integer Value
 		System.out.println("Enter Any Digit");
@@ -18,10 +18,20 @@ public class UserInput {
 		System.out.println("Enter Your name");
 		String yourname = scan1.nextLine();
 		System.out.println(yourname);
+		*/
 		
 		
+Scanner scan = new Scanner(System.in);
 		
+		System.out.println("Enter First Number");
 		
+		int firstnumber= scan.nextInt();
+		
+		System.out.println("Enter Secon number");
+		
+		int secondNumber = scan.nextInt();
+		
+		System.out.println(firstnumber+secondNumber);
 		
 		
 		
