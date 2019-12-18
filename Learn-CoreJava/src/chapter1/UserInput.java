@@ -5,27 +5,17 @@ import java.util.Scanner;
 public class UserInput {
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
-		/*System.out.println("enter Any Number");*/
-		//Integer Values
-		/*int userinput=scan.nextInt();
+		System.out.println("Enter Any Digit");
 		
-		System.out.println(userinput);
+		int UserInput = scan.nextInt();
 		
-		// 
-		System.out.println("Enete Double Number");
-		
-		double double_Value= scan.nextDouble();
-		
-		System.out.println(double_Value);*/
+		System.out.println(UserInput);
 		
 		
-		System.out.println("Enter String");
 		
-		String str = scan.nextLine();
-		
-		System.out.println("HI "+str);
 		
 	}
 
