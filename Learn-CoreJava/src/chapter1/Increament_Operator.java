@@ -10,6 +10,10 @@ public class Increament_Operator {
 		i+=5;
 		
 		System.out.println(i);
+		System.out.println(i++);
+		System.out.println(i);
+		
+		// ++i means pre increamnet of i .Here First Inrcarese the value and 
 		
 		
 	
